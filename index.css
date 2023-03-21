@@ -1,0 +1,16 @@
+img {
+  width: 40%;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.image-container{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+}

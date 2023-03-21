@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Literal Literature</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/> 
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="src.js"></script>
+
+    </head>
+
+    <body>
+        
+      <div class="container">
+        <div class="row justify-content-center">
+          <h1>Select your preferences:</h1>
+          <h2 style="font-size: 100%;">Favorite Book Genrers:</h2>
+        </div>
+        
+      </div>
+      
+        <div id="preferences-form">
+          <form method="get" action="login.html">
+          
+          <div class="form-group">
+            <div class="form-check">
+              
+              <input class="form-check-input" type="checkbox" name="book-genrer" id="customCheck1">
+              <label class="form-check-label" for="customCheck1">Sci-fi</label>
+            
+            </div>
+
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck2">
+              <label class="custom-control-label" for="customCheck2">Fantasy</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck3">
+              <label class="custom-control-label" for="customCheck3">Drama</label>
+            
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck4">
+              <label class="custom-control-label" for="customCheck4">Romance</label>
+            </div>
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck5">
+              <label class="custom-control-label" for="customCheck5">Classical</label>
+            </div>
+            
+            <div class="custom-control custom-checkbox">
+              <input type="checkbox" class="custom-control-input" id="customCheck6">
+              <label class="custom-control-label" for="customCheck6">I love all of them!</label>
+            </div>
+
+        </div>
+          
+          <div class="form-group">
+            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">An Epic Writer of your coice:</label>
+            
+              <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref" name="writers">
+                <option value="J.K. Rowling">J.K. Rowling</option>
+                <option value="C.S. Lewis">C.S. Lewis</option>
+                <option value="J.R.R. Tolkien">J.R.R. Tolkien</option>
+                <option value="George R.R. Martin">George R.R. Martin</option>
+              </select>
+          </div>
+              
+
+            <input type="submit" value="Save" name="form-button">
+            <input type="reset" value="Reset" name="form-button">
+          </form>
+        </div>
+
+    </body>
+
+</html>

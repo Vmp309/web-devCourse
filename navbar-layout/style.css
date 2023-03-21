@@ -1,0 +1,13 @@
+.push {
+  margin-left: auto;
+}
+
+
+
+
+.image-container{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+}
