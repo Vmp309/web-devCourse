@@ -3,7 +3,22 @@
 }
 
 
+.main-nav {
+  
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  
+  
+}
 
+a {
+
+  color:#459;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  
+}
 
 .image-container{
   margin-top: 50px;
