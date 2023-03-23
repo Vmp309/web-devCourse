@@ -1,5 +1,6 @@
 **Guia de navegação de assuntos:**
 
+Da Seção 1-9:
   - *index.html:*
         
       - Utilização de Bootstrap para fazer uma barra de navegação cujos os links Log In, Register levam aos arquivos login.html e register.html respectivamente.
@@ -19,3 +20,7 @@
     - forms e botões animados
 
   
+Da Seção 10-16:
+
+    Observação: Desta parte se encontram apenas assuntos das seções 10-13,visto que as outras serão de assuntos que não necessitam de código. Para achar exercícios desta seção, vá à branch section10-13
+    
